@@ -34,7 +34,7 @@ In order to build and run this project, you will need:
  $ mvn package
 ```
 
-This should generate the `target\happynews-1.0.jar` file.
+This should generate the `target/happynews-1.0.jar` file.
 
 
 ## How to run it
@@ -42,7 +42,7 @@ This should generate the `target\happynews-1.0.jar` file.
 To run the server, just do:
 
 ```bash
- $ java -jar target\happynews-1.0.jar
+ $ java -jar target/happynews-1.0.jar
 12:17:20 INFO  main                 UserRepository                           2 users loaded
 12:17:20 INFO  main                 GroupRepository                          4 groups loaded
 12:17:20 INFO  main                 ArticleRepository                        3 articles found
@@ -50,8 +50,7 @@ To run the server, just do:
 ...
 ```
 
-With regards to the client, you can either configure an NNTP client or just
-use *telnet*:
+As to the client, you can either configure an NNTP client or just use *telnet*:
 
 ```bash
 $ telnet localhost 1119
